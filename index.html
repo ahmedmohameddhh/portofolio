@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ahmed Mohamed — Portfolio</title>
+    <!-- icon -->
+        <link rel="stylesheet" href="/css/all.min.css">
+        <link rel="stylesheet" href="/css/normalize.css">
+
+  <!-- font -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/master.css">
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <!-- ========== HEADER ========== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">AM<span class="accent">.</span></a>
+
+      <button id="nav-toggle" aria-expanded="false" class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="main-nav">
+        <ul>
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#contact" class="nav-link btn ghost">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button id="mode-toggle" aria-label="Toggle Light/Dark Mode">
+        <i class="fas fa-moon"></i>
+      </button>
+      
+    </div>
+  </header>
+
+  <!-- ========== HERO / HOME ========== -->
+  <section id="home" class="home section">
+    <div class="container home-inner">
+      <div class="hero-left">
+        <p class="hello">I'm a</p>
+        <h1 class="hero-title"><span class="big">Full Stack</span><br>Software <span class="big">Developer</span><span class="dot">.</span></h1>
+        <p class="hero-sub">I build modern web apps — clean, fast and responsive.</p>
+        <div class="hero-cta">
+          <a href="#portfolio" class="btn primary">Previous Projects</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <!-- replace src with your image -->
+        <div class="photo-frame">
+          <img src="img/photo_6030528353448086224_y.jpg" alt="Ahmed Mohamed">
+          <span class="frame-decor"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="about section">
+    <div class="container about-inner">
+      
+      <!-- صورة البورتريه -->
+      <div class="about-photo">
+        <div class="photo-card">
+          <img src="img/photo_6030528353448086224_y.jpg" alt="About Ahmed">
+        </div>
+      </div>
+  
+      <!-- محتوى التعريف -->
+      <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <p>
+          I’m a passionate <strong>Full-Stack Developer</strong> who loves building
+          fast, modern, and responsive web applications. My goal is to turn creative
+          ideas into smooth digital experiences with clean and efficient code.
+        </p>
+  
+        <div class="about-actions">
+          <a href="#contact" class="btn primary">Hire Me</a>
+          <a href="resume.pdf" class="btn ghost" download>Download CV</a>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+
+  <!-- ========== PORTFOLIO ========== -->
+  <section id="portfolio" class="portfolio section">
+    <div class="container">
+      <h2 class="h2">Portfolio</h2>
+  
+      <div class="portfolio-tabs">
+        <ul>
+          <li class="tab active" data-filter="all">All</li>
+          <li class="tab" data-filter="frontend">Frontend</li>
+          <li class="tab" data-filter="landing">Landing</li>
+          <li class="tab" data-filter="web">Web Design</li>
+        </ul>
+      </div>
+  
+      <div class="projects">
+
+        <div class="project" data-category="frontend">
+          <div class="project-info">
+            <h3>Frontend Project</h3>
+            <h4>React Portfolio</h4>
+            <p>Modern frontend design built using React and Tailwind CSS.</p>
+          </div>
+          <div class="project-thumb">
+            <img src="img/SNAG-47050714134900.png" alt="">
+          </div>
+        </div>
+  
+        <div class="project reverse" data-category="landing">
+          <div class="project-info ">
+            <h3>Landing Page</h3>
+            <h4>Product Promo</h4>
+            <p>Beautiful landing page for product marketing campaigns.</p>
+          </div>
+          <div class="project-thumb">
+            <img src="img/SNAG-47050913234900.png" alt="">
+          </div>
+        </div>
+  
+        <div class="project" data-category="web">
+          <div class="project-info">
+            <h3>Web Design</h3>
+            <h4>Portfolio Template</h4>
+            <p>Elegant and responsive web design template for creatives.</p>
+          </div>
+          <div class="project-thumb">
+            <img src="/img/SNAG-47050812303400.png" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
+  <!-- ========== SERVICES ========== -->
+  <section class="services" id="services">
+    <h2>My Services</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <div class="icon"><i class="fa-solid fa-code"></i></div>
+        <h4>Web Development</h4>
+        <p>I create modern, fast, and responsive websites using HTML, CSS, and JavaScript.</p>
+      </div>
+      
+      <div class="service-card">
+        <div class="icon"><i class="fa-solid fa-mobile-screen"></i></div>
+        <h4>Responsive Design</h4>
+        <p>Your site will look great on all devices — from mobile phones to desktops.</p>
+      </div>
+  
+      <div class="service-card">
+        <div class="icon"><i class="fa-solid fa-pen-nib"></i></div>
+        <h4>UI/UX Design</h4>
+        <p>Beautiful and functional designs that improve user experience and engagement.</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- ========== EXPERIENCE ========== -->
+  <section class="skills">
+    <h1 class="section-title">My Skills</h1>
+  
+    <div class="skills-grid">
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+        <span>HTML</span>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+        <span>CSS</span>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+        <span>JavaScript</span>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+        <span>React</span>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+        <span>Git</span>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ========== CONTACT ========== -->
+<!-- ====== Contact Section ====== -->
+
+<section class="contact section" id="contact">
+  <div class="container">
+    <h2 class="section-title">Contact Me</h2>
+    <p class="contact-desc">Have a project in mind? Fill the form or reach me directly 👇</p>
+
+    <div class="contact-content">
+      <!-- Contact Form -->
+      <form class="contact-form" id="contactForm">
+        <div class="input-group">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+        <button type="submit" class="btn primary">Send Message</button>
+        <p class="form-message" id="formMessage"></p>
+      </form>
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Get in touch</h3>
+        <p><i class="fa-solid fa-envelope"></i> ahmed@example.com</p>
+        <p><i class="fa-solid fa-phone"></i> +20 111 222 3333</p>
+        <p><i class="fa-solid fa-map-marker-alt"></i> Mansoura, Egypt</p>
+
+        <div class="socials">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+          <!-- replace with links -->
+          <footer class="site-footer">
+            <div class="container footer-inner">
+              <p>&copy; <span id="year"></span> Ahmed Mohamed. All rights reserved.</p>
+              <div class="footer-socials">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </footer>
+          
+</body>
+</html>
