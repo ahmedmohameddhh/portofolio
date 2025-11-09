@@ -4,18 +4,18 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Ahmed Mohamed — Portfolio</title>
-    <!-- icon -->
-        <link rel="stylesheet" href="/css/all.min.css">
+<!-- icon -->
+        <!-- <link rel="stylesheet" href="/css/all.min.css"> -->
+<!-- normalize -->
         <link rel="stylesheet" href="/css/normalize.css">
-
-  <!-- font -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
+<!-- style -->
+        <link rel="stylesheet" href="css/master.css">
+<!-- icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<!-- font -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="css/master.css">
-  <script defer src="main.js"></script>
 </head>
+
 <body>
   <!-- ========== HEADER ========== -->
   <header class="site-header">
@@ -25,7 +25,7 @@
       <button id="nav-toggle" aria-expanded="false" class="nav-toggle" aria-label="Toggle menu">
         <span></span><span></span><span></span>
       </button>
-
+      
       <nav class="nav" id="main-nav">
         <ul>
           <li><a href="#home" class="nav-link active">Home</a></li>
@@ -36,7 +36,7 @@
           <li><a href="#contact" class="nav-link btn ghost">Contact</a></li>
         </ul>
       </nav>
-
+      
       <button id="mode-toggle" aria-label="Toggle Light/Dark Mode">
         <i class="fas fa-moon"></i>
       </button>
@@ -55,7 +55,7 @@
           <a href="#portfolio" class="btn primary">Previous Projects</a>
         </div>
       </div>
-
+      
       <div class="hero-right">
         <!-- replace src with your image -->
         <div class="photo-frame">
@@ -76,7 +76,7 @@
           <img src="img/photo_6030528353448086224_y.jpg" alt="About Ahmed">
         </div>
       </div>
-  
+      
       <!-- محتوى التعريف -->
       <div class="about-content">
         <h2>About <span>Me</span></h2>
@@ -85,13 +85,13 @@
           fast, modern, and responsive web applications. My goal is to turn creative
           ideas into smooth digital experiences with clean and efficient code.
         </p>
-  
+        
         <div class="about-actions">
           <a href="#contact" class="btn primary">Hire Me</a>
           <a href="resume.pdf" class="btn ghost" download>Download CV</a>
         </div>
       </div>
-  
+      
     </div>
   </section>
 
@@ -100,7 +100,7 @@
   <section id="portfolio" class="portfolio section">
     <div class="container">
       <h2 class="h2">Portfolio</h2>
-  
+      
       <div class="portfolio-tabs">
         <ul>
           <li class="tab active" data-filter="all">All</li>
@@ -109,9 +109,9 @@
           <li class="tab" data-filter="web">Web Design</li>
         </ul>
       </div>
-  
+      
       <div class="projects">
-
+        
         <div class="project" data-category="frontend">
           <div class="project-info">
             <h3>Frontend Project</h3>
@@ -122,7 +122,7 @@
             <img src="img/SNAG-47050714134900.png" alt="">
           </div>
         </div>
-  
+        
         <div class="project reverse" data-category="landing">
           <div class="project-info ">
             <h3>Landing Page</h3>
@@ -133,7 +133,7 @@
             <img src="img/SNAG-47050913234900.png" alt="">
           </div>
         </div>
-  
+        
         <div class="project" data-category="web">
           <div class="project-info">
             <h3>Web Design</h3>
@@ -144,7 +144,7 @@
             <img src="/img/SNAG-47050812303400.png" alt="">
           </div>
         </div>
-
+        
       </div>
     </div>
   </section>
@@ -164,7 +164,7 @@
         <h4>Responsive Design</h4>
         <p>Your site will look great on all devices — from mobile phones to desktops.</p>
       </div>
-  
+      
       <div class="service-card">
         <div class="icon"><i class="fa-solid fa-pen-nib"></i></div>
         <h4>UI/UX Design</h4>
@@ -175,7 +175,7 @@
   
 
   <!-- ========== EXPERIENCE ========== -->
-  <section class="skills">
+  <section class="skills" id="experience">
     <h1 class="section-title">My Skills</h1>
   
     <div class="skills-grid">
@@ -221,14 +221,14 @@
         <button type="submit" class="btn primary">Send Message</button>
         <p class="form-message" id="formMessage"></p>
       </form>
-
+      
       <!-- Contact Info -->
       <div class="contact-info">
         <h3>Get in touch</h3>
         <p><i class="fa-solid fa-envelope"></i> ahmed@example.com</p>
         <p><i class="fa-solid fa-phone"></i> +20 111 222 3333</p>
         <p><i class="fa-solid fa-map-marker-alt"></i> Mansoura, Egypt</p>
-
+        
         <div class="socials">
           <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
           <a href="#"><i class="fa-brands fa-github"></i></a>
@@ -241,7 +241,7 @@
 </section>
 
   
-          <!-- replace with links -->
+<!-- replace with links -->
           <footer class="site-footer">
             <div class="container footer-inner">
               <p>&copy; <span id="year"></span> Ahmed Mohamed. All rights reserved.</p>
@@ -254,5 +254,6 @@
             </div>
           </footer>
           
+          <script defer src="main.js"></script>
 </body>
 </html>
